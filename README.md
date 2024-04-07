@@ -10,6 +10,6 @@ If you want to use this in your project, you need to set up the package before s
 
 You can check the .Net Trie implementation here: https://github.com/gmamaladze/trienet
 
-You can check the usage and implementation here: https://youtu.be/gf2NaL04vUg
+You can check the console usage and implementation here: https://youtu.be/gf2NaL04vUg
 
 ![commandconsoleunityc#cheatsdebug](https://github.com/Lasanha-Dev/Unity-CommandConsole/assets/138812250/b5059ee5-b9f4-4b1b-a6a9-e39de2b42085)
