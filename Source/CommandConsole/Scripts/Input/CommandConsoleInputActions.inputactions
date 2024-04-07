@@ -1,0 +1,54 @@
+{
+    "name": "CommandConsoleInputActions",
+    "maps": [
+        {
+            "name": "CommandConsole",
+            "id": "f1e4c0c2-ce19-448a-9ecf-d1382643dde1",
+            "actions": [
+                {
+                    "name": "ToggleEnableDisable",
+                    "type": "Button",
+                    "id": "f657d7e8-bb8b-4c23-876f-6eeaa9b3f95e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Scroll",
+                    "type": "Value",
+                    "id": "2f12a19b-2058-43d4-ae78-0d23bb4e418a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9d3fadf5-5a3a-4113-a08b-a2c752e566dc",
+                    "path": "<Keyboard>/backquote",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleEnableDisable",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a0e4de26-87a8-4feb-8ec1-e98c7a682268",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Scroll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
